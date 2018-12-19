@@ -1,7 +1,13 @@
-import React from 'react'
+﻿import React from 'react'
 import { View } from 'react-native'
 import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'
 import { white, black } from './colors'
+
+export function getDailyReminderValue() {
+  return {
+    today: "👋 Don't forget to log your data today!"
+  }
+}
 
 export function getMetricMetaInfo(metric) {
   const info = {
