@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import { View, TouchableOpacity, Text } from 'react-native'
 import { View, TouchableOpacity, Text, StyleSheet, Platform } from 'react-native'
-import { getMetricMetaInfo, timeToString } from '../utils/helpers'
 import {
   getMetricMetaInfo,
   timeToString,
